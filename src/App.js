@@ -9,11 +9,9 @@ import Location from "./components/Location";
 import Footer from "./components/header_footer/Footer";
 import { Element } from "react-scroll";
 
-//style={{ overflowX: "hidden" }}
-
 function App() {
   return (
-    <div className="App ">
+    <div className="App" style={{ overflowX: "hidden" }}>
       <Header />
       <Element name="featured">
         <Featured />
