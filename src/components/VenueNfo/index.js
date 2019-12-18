@@ -21,7 +21,7 @@ const VenueNfo = () => {
                     // }}
                   />
                   <div className="vn_title">Event Date & Time</div>
-                  <div className="vn_desc">7 August 2019 @10:00 pm</div>
+                  <div className="vn_desc">12 December 2020 @10:00 pm</div>
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ const VenueNfo = () => {
                     // }}
                   />
                   <div className="vn_title">Event Location</div>
-                  <div className="vn_desc">Kaisaniemi Helsinki Square</div>
+                  <div className="vn_desc">Bucharest Theater, Romania</div>
                 </div>
               </div>
             </div>

@@ -80,21 +80,25 @@ footer .footer_copyright {
   background-size: cover !important;
 } */
 .car1 {
-  background-image: url("./images/slide_one.jpg");
+  background-image: url("./images/image_1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
 }
 .car2 {
-  background-image: url("./images/slide_two.jpg");
+  background-image: url("./images/image_2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+
   height: 100vh;
 }
 .car3 {
-  background-image: url("./images/slide_three.jpg");
-  background-size: cover;
+  background-image: url("./images/image_3.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
 }
 

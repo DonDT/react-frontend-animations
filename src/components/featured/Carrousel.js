@@ -38,7 +38,7 @@ const Carrousel = () => {
             }}
           />
         </div>
-        <div>
+        <div style={{ display: "grid", height: "100%" }}>
           <div
             className="carrousel_image car3"
             styel={{

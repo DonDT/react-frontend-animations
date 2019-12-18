@@ -34,13 +34,13 @@ class Discount extends Component {
           </Fade>
           <Slide right>
             <div className="discount_description">
-              <h3>Purchase Tickets Before 20th June 2019</h3>
+              <h3>Purchase Tickets Before 20th June 2020</h3>
               <p>
                 {" "}
-                hey everyone It is recommended to get the tickets early and one
-                time, to ensure that your place is reserved. This would allow
-                our team to know exactly how many people would come and how to
-                make arrangemants to accomodate everyone. Much Love!
+                Hey everyone, It is recommended to get the tickets early, to
+                ensure that your place is reserved. This would allow our team to
+                know exactly how many people would come and how to make
+                arrangemants to accomodate everyone. Much Love! Viorica
               </p>
               <MyButton
                 text="Purchase Tickets"

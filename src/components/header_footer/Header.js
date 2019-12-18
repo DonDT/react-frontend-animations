@@ -53,7 +53,9 @@ class Header extends Component {
               }}
             >
               <div className="font-righteous header_logo_venue">The Venue</div>
-              <div className="header_logo_title">Musical Events</div>
+              <div className="header_logo_title">
+                Musical Events By Floricel
+              </div>
             </div>
 
             <IconButton
