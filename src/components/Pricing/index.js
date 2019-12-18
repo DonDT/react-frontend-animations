@@ -9,7 +9,7 @@ class Pricing extends Component {
     description: [
       "Sometines being a little distant allows one to truly appriciate whats ahead and really take it in, our balcony positions are super",
       "Right in the middle of the show with whirling on either side and all around, a real treat not to miss",
-      "How closeup can you be to the performer? Well this is as close as it gets, you get to see the artist in all their strength and weakness up close and love them up"
+      "How closeup can you be to the performer? Well this is as close as it gets, up close and love them up"
     ],
     linkto: ["http://sales/b", "http://sales/c", "http://sales/s"],
     delay: [500, 0, 500]

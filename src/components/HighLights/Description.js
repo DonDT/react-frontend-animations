@@ -4,8 +4,8 @@ import Fade from "react-reveal/Fade";
 const Description = () => {
   return (
     <Fade>
-      <div className="center_wrapper">
-        <h2>HighLights</h2>
+      <div className="center_wrapper ">
+        <h2 className="mediaHighlights">HighLights</h2>
         <div className="highlight_description">
           The Event is going to be phenomenal with guest artists and high level
           performances. I selected the most wild and crazy folks that can shake

@@ -374,3 +374,91 @@ footer .footer_copyright {
   padding: 15px 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 900px) {
+  h2 {
+    font-size: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .highlight_description {
+    max-width: 650px;
+    margin: 0 auto !important;
+  }
+  .mediaHighlights {
+    margin: 0 auto !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .discount_wrapper {
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0px auto !important;
+  }
+
+  .discount_wrapper .discount_porcentage span:nth-child(1) {
+    color: #ff4800;
+    font-size: 75px;
+    font-weight: 200;
+    display: block;
+    line-height: 70px;
+    margin: 0 auto !important;
+  }
+
+  .discount_wrapper .discount_porcentage span:nth-child(2) {
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: 200;
+    display: block;
+  }
+
+  .discount_wrapper .discount_description h3 {
+    font-size: 23px;
+    font-weight: 100;
+    margin: 0px;
+    color: #2c2c2c;
+  }
+
+  .discount_wrapper .discount_description p {
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    max-width: 300px;
+  }
+  /*Pricing*/
+  .pricing_wrapper .pricing_item {
+    flex-shrink: 1;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .pricing_wrapper .pricing_inner_wrapper {
+    border: 2px solid #ffa800;
+    padding: 20px 7px;
+    width: 200px !important;
+  }
+  .pricing_inner_wrapper .pricing_title span:nth-child(1) {
+    font-size: 30px;
+    display: block;
+  }
+  .pricing_inner_wrapper .pricing_title span:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 250;
+  }
+}
+@media screen and (max-width: 890px) {
+  .pricing_wrapper {
+    flex-wrap: wrap;
+  }
+  .pricing_wrapper .pricing_item {
+    flex-shrink: 1;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .pricing_item {
+    margin: 0 auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
