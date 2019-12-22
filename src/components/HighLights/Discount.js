@@ -40,7 +40,7 @@ class Discount extends Component {
                 Hey everyone, It is recommended to get the tickets early, to
                 ensure that your place is reserved. This would allow our team to
                 know exactly how many people would come and how to make
-                arrangemants to accomodate everyone. Much Love! Viorica
+                arrangemants to accomodate everyone. Much Love!
               </p>
               <MyButton
                 text="Purchase Tickets"

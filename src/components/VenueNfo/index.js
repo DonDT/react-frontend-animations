@@ -39,7 +39,7 @@ const VenueNfo = () => {
                     // }}
                   />
                   <div className="vn_title">Event Location</div>
-                  <div className="vn_desc">Bucharest Theater, Romania</div>
+                  <div className="vn_desc">Forum Helsinki, Finland</div>
                 </div>
               </div>
             </div>

@@ -11,8 +11,8 @@ const Description = () => {
           performance. I selected the most wild and crazy folks that can shake
           and move the crowd. I tell you they can engage the crowd, and marvel
           everyone. Come one come all and be a part of this amazing event.
-          Ofcourse it's yours most humble most amazing Floricel, and I promise
-          on my career I would deliver and ensure that all that are with me does
+          Ofcourse it's yours most humble most amazing Ariana, and I promise on
+          my career I would deliver and ensure that all that are with me does
           the same aswell. I look forward to receiving your love and
           encouragement and guarantee you would get lots of mine.
         </div>
