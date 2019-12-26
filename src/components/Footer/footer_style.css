@@ -1,27 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Open+Sans+Condensed:300&display=swap");
+
 .footer_container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 40px;
+  grid-template-rows: auto auto;
+  padding: 35px;
   align-items: center;
   justify-content: center;
 }
 .main_container {
   background-color: #d633ff;
-  height: 45vh;
+  height: 80vh;
 }
-h3 {
+h4 {
   color: #34495e;
-  align-items: flex-start;
+  text-align: center;
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 25px;
 }
 li {
   color: #ffffff;
   list-style-type: none;
   cursor: pointer;
+  font-family: "Open Sans Condensed", sans-serif;
 }
-.first_list.second_list.third_list.fourth_list {
+.first_list {
   align-items: center;
   justify-content: center;
 }
 li:hover {
   color: #34495e;
+}
+.facebookIcon,
+.instagramIcon,
+.linkedInIcon,
+.pointingHand,
+.gitIcon {
+  width: 25px;
+  color: white;
+  height: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.footerIcons,
+.giticonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+.pointingHand {
+  width: 15px;
+  height: 15px;
+}
+.giticonDiv {
+  margin-top: 25px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formdiv {
+  align-items: center;
+  justify-content: center;
+}
+.Subscription {
+  text-align: center;
+  margin-top: 35px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.text-Input {
+  width: 25vw;
+  height: 13px;
+  margin-left: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+h5 {
+  font-family: "Open Sans Condensed", sans-serif;
 }

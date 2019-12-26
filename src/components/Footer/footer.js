@@ -1,4 +1,11 @@
 import React, { Component } from "react";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaGithub,
+  FaHandPointRight
+} from "react-icons/fa";
 import "./footer_style.css";
 
 class Footer extends Component {
@@ -7,7 +14,7 @@ class Footer extends Component {
       <div className="main_container">
         <div className="footer_container">
           <div className="first_list">
-            <h3>Loving</h3>
+            <h4>Loving</h4>
             <ul>
               <li>Lets Go</li>
               <li>Gives Away</li>
@@ -24,8 +31,7 @@ class Footer extends Component {
             </ul>
           </div>
           <div className="second_list">
-            <h3>Feeling</h3>
-
+            <h4>Feeling</h4>
             <ul>
               <li>Compassionate</li>
               <li>Understanding</li>
@@ -42,8 +48,7 @@ class Footer extends Component {
             </ul>
           </div>
           <div className="third_list">
-            <h3>Giving</h3>
-
+            <h4>Giving</h4>
             <ul>
               <li>Genrosity</li>
               <li>Receiving</li>
@@ -60,8 +65,7 @@ class Footer extends Component {
             </ul>
           </div>
           <div className="fourth_list">
-            <h3>Jazz/ Blues/ Classical</h3>
-
+            <h4>Jazz/ Blues/ Classical</h4>
             <ul>
               <li>Miles Davis</li>
               <li>Louis Armstrong</li>
@@ -77,6 +81,30 @@ class Footer extends Component {
               <li>Motzart</li>
             </ul>
           </div>
+        </div>
+        <div className="footerIcons">
+          <div>
+            <FaHandPointRight className="pointingHand" />
+            <FaFacebook className="facebookIcon" />
+            <FaInstagram className="instagramIcon" />
+            <FaLinkedin className="linkedInIcon" />
+          </div>
+        </div>
+        <div className="giticonDiv">
+          <FaGithub className="gitIcon" />
+        </div>
+        <div className="Subscription">
+          <p>Subscribe below</p>
+        </div>
+        <div className="formdiv">
+          <form className="form">
+            <h5>Email :</h5>
+            <input
+              type="text"
+              className="text-Input"
+              placeholder="Floricel@email.com"
+            />
+          </form>
         </div>
       </div>
     );
