@@ -9,6 +9,7 @@ import Location from "./components/Location";
 import Footer from "./components/header_footer/Footer";
 import { Element } from "react-scroll";
 import ParallaxOne from "./components/parallax/parallax_1";
+import FooterDiv from "./components/Footer/footer";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
       <Element name="location">
         <Location />
       </Element>
-
+      <FooterDiv />
       <Footer />
     </div>
   );

@@ -1,0 +1,27 @@
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.main_container {
+  background-color: #d633ff;
+  height: 45vh;
+}
+h3 {
+  color: #34495e;
+  align-items: flex-start;
+}
+li {
+  color: #ffffff;
+  list-style-type: none;
+  cursor: pointer;
+}
+.first_list.second_list.third_list.fourth_list {
+  align-items: center;
+  justify-content: center;
+}
+li:hover {
+  color: #34495e;
+}
