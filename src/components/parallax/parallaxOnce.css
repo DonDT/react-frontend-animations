@@ -1,0 +1,8 @@
+.parallax_1 {
+  height: 45vh;
+  align-items: center;
+  justify-content: center;
+  z-index: -10;
+}
+.parallax_container {
+}

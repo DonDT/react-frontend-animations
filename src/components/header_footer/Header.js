@@ -52,7 +52,9 @@ class Header extends Component {
                 display: this.state.headerShow ? "none" : "inline-block"
               }}
             >
-              <div className="font-righteous header_logo_venue">The Venue</div>
+              <div className="font-righteous header_logo_venue">
+                The Venue By Floricel
+              </div>
               <div className="header_logo_title">Musical Events</div>
             </div>
 

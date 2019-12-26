@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Location from "./components/Location";
 import Footer from "./components/header_footer/Footer";
 import { Element } from "react-scroll";
+import ParallaxOne from "./components/parallax/parallax_1";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Element name="featured">
         <Featured />
       </Element>
+      <ParallaxOne />
       <Element name="venueinfo">
         <VenueNfo />
       </Element>

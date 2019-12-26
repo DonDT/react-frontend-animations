@@ -39,7 +39,9 @@ const VenueNfo = () => {
                     // }}
                   />
                   <div className="vn_title">Event Location</div>
-                  <div className="vn_desc">Forum Helsinki, Finland</div>
+                  <div className="vn_desc">
+                    Grand Thearter Bucharest Romania
+                  </div>
                 </div>
               </div>
             </div>
