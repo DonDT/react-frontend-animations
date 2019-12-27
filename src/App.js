@@ -16,25 +16,25 @@ function App() {
   return (
     <div className="App" style={{ overflowX: "hidden" }}>
       <Header />
-      <Element name="featured">
-        <Featured />
-      </Element>
+      {/* <Element name="featured"> */}
+      <Featured />
+      {/* </Element> */}
       <ParallaxOne />
-      <Element name="venueinfo">
-        <VenueNfo />
-      </Element>
+      {/* <Element name="venueinfo"> */}
+      <VenueNfo />
+      {/* </Element> */}
 
-      <Element name="highlights">
-        <HighLights />
-      </Element>
+      {/* <Element name="highlights"> */}
+      <HighLights />
+      {/* </Element> */}
       <ParallaxTwo />
-      <Element name="pricing">
-        <Pricing />
-      </Element>
+      {/* <Element name="pricing"> */}
+      <Pricing />
+      {/* </Element> */}
 
-      <Element name="location">
-        <Location />
-      </Element>
+      {/* <Element name="location"> */}
+      <Location />
+      {/* </Element> */}
       <FooterDiv />
       <Footer />
     </div>

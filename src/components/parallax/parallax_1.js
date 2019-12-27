@@ -34,7 +34,7 @@ class Parallax_1 extends Component {
         >
           <Parallax
             y={[35, 10]}
-            x={[20, -30]}
+            x={[20, -70]}
             tagOuter="figure"
             className="parallax_container"
             styleInner={innerStyle}
@@ -46,8 +46,8 @@ class Parallax_1 extends Component {
             />
           </Parallax>
           <Parallax
-            y={[-35, 10]}
-            x={[-5, 20]}
+            y={[-35, 20]}
+            x={[-5, 70]}
             tagOuter="figure"
             className="parallax_container"
             styleOuter={outerStyle}
