@@ -25,10 +25,7 @@ li {
   cursor: pointer;
   font-family: "Open Sans Condensed", sans-serif;
 }
-.first_list {
-  align-items: center;
-  justify-content: center;
-}
+
 li:hover {
   color: #34495e;
 }
@@ -38,11 +35,16 @@ li:hover {
 .pointingHand,
 .gitIcon {
   width: 25px;
-  color: white;
+  color: gold;
   height: 25px;
   margin-left: 20px;
   cursor: pointer;
 }
+/* .facebookIcon :hover {
+  transform: translateX(30px);
+  transition: all 0.5s;
+} */
+
 .footerIcons,
 .giticonDiv {
   display: flex;
@@ -80,4 +82,10 @@ li:hover {
 }
 h5 {
   font-family: "Open Sans Condensed", sans-serif;
+}
+
+.right_border {
+  border-right: double #ffffff;
+  margin-top: 23px;
+  margin-bottom: 23px;
 }

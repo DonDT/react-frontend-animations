@@ -4,6 +4,8 @@ import ToolBar from "@material-ui/core/Toolbar";
 import MenuIcon from "@material-ui/icons/Menu";
 import IconButton from "@material-ui/core/IconButton";
 import SideDrawer from "./SideDrawer";
+import { FaAsymmetrik, FaArtstation } from "react-icons/fa";
+import "./Header.css";
 //import { display } from "@material-ui/system";
 
 class Header extends Component {
@@ -32,8 +34,9 @@ class Header extends Component {
 
   render() {
     return (
-      <div style={{ position: "relative" }}>
-        <AppBar
+      //<div style={{ position: "relative" }}>
+      <div>
+        {/* <AppBar
           position="fixed"
           style={{
             backgroundColor: this.state.headerShow ? "#2f2f2f" : "transparent",
@@ -85,7 +88,61 @@ class Header extends Component {
               onClose={value => this.toggleDrawer(value)}
             />
           </ToolBar>
-        </AppBar>
+        </AppBar> */}
+        <div className="wrapperDiv">
+          <div className="container_div">
+            <div style={{ display: "flex" }}>
+              <h4>The Venue By Floricel</h4>
+              <div className="stationIcon">
+                <FaArtstation />
+                {/* <ul class="menu">
+                  <li>
+                    <a href="#">Parent Link</a>
+
+                    <ul>
+                      <li>
+                        <a href="#">Child Link</a>
+                      </li>
+                      <li>
+                        <a href="#">Child Link</a>
+                      </li>
+                      <li>
+                        <a href="#">Child Link</a>
+                      </li>
+                      <li>
+                        <a href="#">Child Link</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul> */}
+              </div>
+            </div>
+            <ul>
+              <li>
+                <a href="#">
+                  <FaAsymmetrik className="asymmetricIcon" />{" "}
+                </a>
+                <ul className="dropdown">
+                  <li>
+                    <a href="#">Events</a>
+                  </li>
+                  <li>
+                    <a href="#">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#">Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Services</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }
