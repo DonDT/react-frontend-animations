@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Open+Sans+Condensed:300&display=swap");
 
 .wrapperDiv {
-  width: 80%;
-  margin: 0 auto;
+  position: fixed;
+  width: 90vw;
+  height: 90px;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 .container_div {
-  background-color: transparent;
   display: flex;
+  background: transparent;
 }
 
 .container_div h4 {

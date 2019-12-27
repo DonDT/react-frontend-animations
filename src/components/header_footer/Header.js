@@ -35,7 +35,7 @@ class Header extends Component {
   render() {
     return (
       //<div style={{ position: "relative" }}>
-      <div>
+      <div className="Main_main">
         {/* <AppBar
           position="fixed"
           style={{
@@ -95,26 +95,6 @@ class Header extends Component {
               <h4>The Venue By Floricel</h4>
               <div className="stationIcon">
                 <FaArtstation />
-                {/* <ul class="menu">
-                  <li>
-                    <a href="#">Parent Link</a>
-
-                    <ul>
-                      <li>
-                        <a href="#">Child Link</a>
-                      </li>
-                      <li>
-                        <a href="#">Child Link</a>
-                      </li>
-                      <li>
-                        <a href="#">Child Link</a>
-                      </li>
-                      <li>
-                        <a href="#">Child Link</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul> */}
               </div>
             </div>
             <ul>

@@ -10,6 +10,7 @@ import Footer from "./components/header_footer/Footer";
 import { Element } from "react-scroll";
 import ParallaxOne from "./components/parallax/parallax_1";
 import FooterDiv from "./components/Footer/footer";
+import ParallaxTwo from "./components/parallax/parallax_two";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Element name="highlights">
         <HighLights />
       </Element>
+      <ParallaxTwo />
       <Element name="pricing">
         <Pricing />
       </Element>
