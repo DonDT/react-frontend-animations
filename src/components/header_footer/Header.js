@@ -92,7 +92,7 @@ class Header extends Component {
         <div className="wrapperDiv">
           <div className="container_div">
             <div style={{ display: "flex" }}>
-              <h4>The Venue By Floricel</h4>
+              <h4>The Venue </h4>
               <div className="stationIcon">
                 <FaArtstation />
               </div>
